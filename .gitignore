@@ -1,0 +1,52 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+pip-wheel-metadata/
+*.manifest
+*.spec
+
+# --- Virtual Environments ---
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# --- IDE / Editor Files ---
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# --- OS Files ---
+.DS_Store
+Thumbs.db
+
+# --- Logs and Temp Files ---
+*.log
+*.tmp
+*.bak
+
+# --- Testing ---
+.coverage
+htmlcov/
+.tox/
+.nox/
+pytest_cache/
+
+# --- Game Data or Output (if any) ---
+*.txt
+*.csv
+*.json
+
+# --- Miscellaneous ---
+*.sqlite3
+*.db
